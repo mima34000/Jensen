@@ -1,0 +1,102 @@
+Övning 1: 2D Transforms - Rotera och Skala
+
+Mål: Att använda CSS transform för att rotera och skala ett element.
+
+    1. Skapa en kvadratisk div (200x200px) med valfri bakgrundsfärg.
+    2. Använd CSS transform för att rotera div-elementet 45 grader och 
+    skala det till 1,5 gånger sin ursprungliga storlek.
+    3. Testa att kombinera flera transformeringar på samma element, 
+    t.ex. både rotation och skalning samtidigt.
+
+Använd:
+transform: rotate(45deg) scale(1.5);
+
+
+
+
+
+Övning 2: 3D Transforms - Perspektiv och Rotation
+
+Mål: Att experimentera med 3D-transformeringar och perspektiv.
+
+    1. Skapa en kvadratisk div (200x200px).
+    2. Lägg till en 3D-rotation (rotateX, rotateY) så att elementet ser 
+    ut att rotera i tre dimensioner.
+
+Använd:
+transform: rotateX(30deg) rotateY(30deg);
+
+
+
+
+
+
+Övning 3: Transitions - Mjuk övergång vid hover
+
+Mål: Att använda CSS transition för att skapa mjuka övergångar 
+mellan olika tillstånd.
+
+    1. Skapa en knapp (eller div) som byter färg och storlek när 
+    användaren hovrar över den.
+    2. Använd CSS transition för att göra övergångarna mjuka och jämna, 
+    exempelvis under 0.5 sekunder.
+
+Använd: 
+transition: all 0.5s ease;
+
+button:hover {
+  background-color: blue;
+  transform: scale(1.2);
+}
+
+
+
+Övning 4: Keyframe Animation - Bouncande boll
+
+Mål: Att skapa en enkel animering med CSS @keyframes.
+
+  1. Skapa en cirkulär div (boll) med en radie på 50px och en position 
+  relativt till botten av skärmen.
+  2. Använd @keyframes för att animera bollen så att den studsar upp och ner.
+  3. Se till att animeringen körs i en loop med hjälp av 
+  animation-iteration-count: infinite.
+  4. Bonus: Använd transition för att göra en studs med bollen.
+
+Använd: 
+  @keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-200px); }
+    100% { transform: translateY(0); }
+  }
+
+  div {
+    animation: bounce 1s infinite;
+  }
+
+
+
+Övning 5: 3D-Animation - Roterande kub
+
+Mål: Att kombinera 3D-transformationer och animationer.
+
+    1. Skapa en kub genom att använda sex div-element (en för varje sida av 
+    kuben) som du placerar med hjälp av position: absolute.
+    2. Använd 3D-transformeringar (rotateX, rotateY, rotateZ) för att få kuben 
+    att rotera kontinuerligt runt sina axlar.
+    3. Lägg till en @keyframes-animering för att rotera kuben över tid.
+
+Använd:
+@keyframes rotateCube {
+  0% { transform: rotateX(0deg) rotateY(0deg); }
+  100% { transform: rotateX(360deg) rotateY(360deg); }
+}
+
+.cube {
+  perspective: 1000px;
+}
+
+.face {
+  position: absolute;
+  transform-style: preserve-3d;
+  animation: rotateCube 5s infinite linear;
+}

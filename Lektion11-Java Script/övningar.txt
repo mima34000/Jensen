@@ -1,0 +1,39 @@
+1. Enkla variabler och utskrift
+
+1.1 Skapa en variabel som innehåller ditt namn och en annan variabel för din ålder. Använd console.log() för
+att skriva ut en hälsning som inkluderar både ditt namn 
+och ålder.
+
+1.2 Skapa en variabel (birthYear) som innehåller året
+du föddes, en variabel (year) som innehåller nuvarande
+år, och en variabel (age) som innehåller:
+(year - birthYear). Skriv sedan ut din ålder med
+console.log()
+
+
+
+2. If/else för att kontrollera ålder
+
+Skriv en variabel age som innehåller en ålder på en 
+person och sedan använder en if/else-sats för att
+avgöra om personen är myndig (18 år eller äldre).
+
+
+
+3. Jämförelse mellan två tal
+
+Skapa två variabler med olika tal och jämför dem. 
+Skriv ut vilket tal som är större, eller om de är lika
+stora. Använd if/else if/else.
+
+
+
+4. Kontrollera om ett tal är jämnt eller udda
+
+Skapa en variabel som tar ett tal och gör sedan en som avgör om talet är jämnt eller udda. Använd if/else.
+
+
+
+5. Kategorisera temperatur
+
+Skapa en variabel som tar en temperatur i celcius och kategoriserar den som "kallt", "varmt" eller "hett" beroende på värdet. Exempel: under 10 grader är kallt, mellan 10 och 25 grader är varmt, och över 25 grader är hett. Använd if/else if/else

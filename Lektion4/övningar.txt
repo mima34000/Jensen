@@ -1,0 +1,95 @@
+Övning 1: Boxmodellen
+
+Mål: Förstå boxmodellens beståndsdelar: margin, border, 
+padding, och content.
+
+Uppgift:
+
+    1. Skapa en HTML-fil med en div som innehåller lite 
+    text.
+    2. Använd CSS för att styla div-elementet enligt 
+    följande:
+        * Sätt en width och height på elementet.
+        * Lägg till padding på 20px.
+        * Ge elementet en border på 5px solid black.
+        * Lägg till en margin på 10px.
+    3. Lägg till en box-shadow för att visuellt se hur 
+    boxmodellen fungerar.
+
+
+
+Övning 2: CSS-selektorer
+
+Mål: Lära dig använda olika selektorer i CSS.
+
+Uppgift:
+
+    1. Skapa en HTML-fil med ett antal div, p och span-
+    element.
+    2. Använd följande CSS-selektorer:
+        * En typselektor för att styla alla p-element.
+        * En klassselektor för att styla alla element med 
+        klassen highlight.
+        * En id-selektor för att styla ett element med ett
+        specifikt id.
+        * Använd en sammansatt selektor för att styla p-
+        element som innehåller en span med en viss klass.
+        * Använd en pseudosätt för att styla det första p-
+        elementet i en div.
+
+
+
+Övning 3: Inline, Block och Inline-block
+
+Mål: Förstå skillnaden mellan inline, block och inline-
+block element.
+
+Uppgift:
+
+    1. Skapa en HTML-fil med några div, span och button-element.
+    2. Använd CSS för att ändra dessa element:
+        * Gör en div till display: inline-block;.
+        * Ändra ett span-element till display: block;.
+        * Skapa några knappar (button) och använd display:
+        inline-block; för att placera dem bredvid varandra.
+
+
+
+Övning 4: Positionering (Static, Relative, Absolute, Fixed)
+
+Mål: Förstå olika positioneringstyper i CSS.
+
+Uppgift:
+
+    1. Skapa en HTML-fil med fyra divar.
+    2. Använd CSS för att styla dessa divar med olika 
+    positioneringstyper:
+        * En div med position: static; 
+        (standardinställningen).
+        * En div med position: relative; och flytta den 
+        10px från toppen och vänster.
+        * En div med position: absolute; och placera den i
+        nedre högra hörnet av föräldraelementet.
+        * En div med position: fixed; och placera den i 
+        övre högra hörnet av fönstret.
+
+
+
+Övning 5: Kombinera allt
+
+Mål: Använda kunskaperna från de tidigare övningarna i en 
+större uppgift.
+
+Uppgift:
+
+    1. Skapa en HTML-layout med en header, en sidebar, ett 
+    huvudavsnitt och en footer.
+    2. Använd CSS för att:
+        * Ge varje sektion olika marginaler, padding och 
+        borders för att visa boxmodellen.
+        * Använd selektorer för att styla olika element 
+        inom layouten.
+        * Använd display: inline-block; för att placera 
+        sidomenyn och huvudavsnittet bredvid varandra.
+        * Använd positionering för att göra headern fast 
+        och placera footern i botten

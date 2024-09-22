@@ -1,0 +1,145 @@
+<!-- Övning 1 -->
+
+<div class="box">Boxmodellens exempeltext</div>
+
+<style>
+  .box {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+</style>
+
+<!-- Övning 2 -->
+<div>
+  <p>Text 1</p>
+  <p class="highlight">Text 2</p>
+  <p id="special">Text 3</p>
+  <p>Text 4<span class="highlight">Span text</span></p>
+</div>
+
+<style>
+  p {
+    color: blue;
+  }
+
+  .highlight {
+    background-color: yellow;
+  }
+
+  #special {
+    font-weight: bold;
+  }
+
+  p .highlight {
+    font-style: italic;
+  }
+
+  div p:first-child {
+    color: red;
+  }
+</style>
+
+<!-- Övning 3 -->
+<div class="block">Block-element</div>
+<span class="block">Block-element (var ett span)</span>
+<div class="inline-block">Inline-block 1</div>
+<div class="inline-block">Inline-block 2</div>
+<button>Knapp 1</button>
+<button>Knapp 2</button>
+
+<style>
+  .block {
+    display: block;
+    background-color: lightblue;
+  }
+
+  .inline-block {
+    display: inline-block;
+    background-color: lightgreen;
+    padding: 10px;
+  }
+</style>
+
+<!-- Övning 4 -->
+<div class="static">Static</div>
+<div class="relative">Relative</div>
+<div class="absolute">Absolute</div>
+<div class="fixed">Fixed</div>
+
+<style>
+  .static {
+    position: static;
+    background-color: lightcoral;
+  }
+
+  .relative {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background-color: lightseagreen;
+  }
+
+  .absolute {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: lightgoldenrodyellow;
+  }
+
+  .fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: lightpink;
+  }
+</style>
+
+<!-- Övning 5 -->
+<header>Header</header>
+<div class="container">
+  <aside class="sidebar">Sidebar</aside>
+  <section class="main">Main content</section>
+</div>
+<footer>Footer</footer>
+
+<style>
+  header,
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+  }
+
+  header {
+    top: 0;
+  }
+
+  footer {
+    bottom: 0;
+  }
+
+  .container {
+    margin-top: 70px; /* För att kompensera för den fasta headern */
+    margin-bottom: 50px; /* För att kompensera för den fasta footern */
+  }
+
+  .sidebar {
+    display: inline-block;
+    width: 25%;
+    background-color: #f4f4f4;
+    padding: 15px;
+  }
+
+  .main {
+    display: inline-block;
+    width: 70%;
+    padding: 15px;
+  }
+</style>

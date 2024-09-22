@@ -1,0 +1,126 @@
+Övning: Utforska CSS-positionering 
+
+
+
+Mål: Förstå hur 
+
+    * position: static
+    * position: relative 
+    * position: absolute 
+
+fungerar och påverkar elementens layout på en
+webbsida. 
+
+
+
+Instruktioner: 
+
+1. Skapa en grundläggande HTML-struktur:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning Exercise</title>
+    <style>
+        .container {
+            width: 300px;
+            height: 300px;
+            border: 2px solid black;
+            position: relative;
+        }
+
+        .box1 {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+
+        .box2 {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+        }
+
+        .box3 {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">Box 1</div>
+        <div class="box2">Box 2</div>
+        <div class="box3">Box 3</div>
+    </div>
+</body>
+</html>
+
+
+
+2. Initiala observationer:
+
+Öppna HTML-filen i en webbläsare och observera hur de tre rutorna 
+(box1, box2, och box3) är placerade i containern. Vad är positionering i
+ursprungsläget? Vad händer om vi försöker ändra left och top property?
+
+
+
+3. Experimentera med position: relative:
+
+Lägg till position: relative och top/left egenskaper till .box1. Uppdatera 
+CSS-filen enligt följande:
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+Observera vad som händer med box1. Vad händer med de andra boxarna när 
+box1 flyttas?
+
+
+
+4. Introduktion av position: absolute:
+
+Ändra nu .box2 till position: absolute och justera top och left värdena:
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+
+Observera hur box2 flyttas ut ur det normala dokumentflödet och 
+positioneras relativt till den närmaste föräldern med 
+position: relative (i detta fall .container).
+
+
+
+5. Förstå skillnaderna:
+
+För att tydliggöra skillnaderna, lägg till ännu ett element med 
+position: static eller lämna .box3 som den är. Diskutera hur static är 
+standardvärdet och vad det innebär att elementet placeras i det naturliga 
+dokumentflödet utan att påverka andra element.
+
+
+
+Uppföljningsfrågor:
+Vad händer om du tar bort position: relative från .container? Varför?
+
+Hur påverkar position: absolute de andra elementen i containern?
+
+Vad skulle hända om du satte position: absolute på alla tre rutorna? 
+Hur skulle layouten se ut?

@@ -1,0 +1,152 @@
+Övning 1: HTML Comments & Head
+Instruktioner:
+
+    1. Skapa en HTML-fil.
+    2. Inkludera en <head>-sektion med en titel för sidan.
+    3. Lägg till en kommentar i HTML-koden som beskriver syftet med sidan.
+    4. Inkludera en meta-tag för att specificera teckenuppsättningen 
+    (charset) som utf-8 (i.e <meta charset="UTF-8">)
+
+
+
+Övning 2: HTML Colors & Text Formatting
+Instruktioner:
+
+    1. Skapa en HTML-sida som visar en rubrik (<h1>) 
+    och några stycken text (<p>).
+    2. Formatera ett av styckena med fet stil (<strong>) 
+    och ett annat med kursiv stil (<em>).
+    3. Använd inline CSS för att ändra textfärgen på 
+    rubriken till blå och bakgrundsfärgen på ett av 
+    styckena till ljusgrå.
+
+
+
+Övning 3: HTML Images & File Paths
+Instruktioner:
+
+    1. Skapa en HTML-sida som visar en bild.
+    2. Använd en relativ filväg för att länka till en 
+    bild som ligger i en mapp som heter "images".
+    3. Lägg till ett alternativtext (alt) för bilden.
+
+
+
+
+
+Övning 4: HTML Tables & Lists
+Instruktioner:
+
+    1. Skapa en HTML-sida med en tabell som visar ett 
+    enkelt veckoschema.
+
+    Tid    Måndag  Tisdag  Onsdag  Torsdag  Fredag  Lördag  Söndag
+    09-12     öva     öva     öva      öva     öva    sova    sova
+    13-16    läsa    läsa    läsa     läsa    läsa    vila    vila
+
+    2. Lägg till en lista (<ul>) under tabellen som beskriver 
+    aktiviteterna i schemat.
+
+    * öva: Göra uppgifter i HTML
+    * läsa: Testa nya tekniker
+    * sova: ligga i sängen och drömma sig bort
+    * vila: ligga i sängen och samla energi
+
+
+
+Övning 5: HTML Block & Inline Elements
+Instruktioner:
+
+    1. Skapa en HTML-sida som innehåller både block- 
+    och inline-element.
+    2. Lägg till en <div>-container (block) som 
+    innehåller en rubrik (<h2>) och ett stycke <p>.
+    3. Inuti stycket, inkludera några inline-element 
+    som <strong>, <em>, och en <a>-länk.
+
+
+
+Övning 6: Skapa en Enkel Personlig Webbplats
+
+Mål: Skapa en enkel personlig webbplats som innehåller flera sidor och 
+använder olika HTML-element och tekniker. Denna webbplats kommer att 
+bestå av en startsida, en portfolio-sida och en kontaktsida.
+
+Instruktioner:
+
+Steg 1: Strukturera Projektet
+
+    1. Skapa en mappstruktur
+        * Skapa en huvudmapp för ditt projekt, t.ex. "min-webbplats".
+        * Inuti denna mapp, skapa undermapparna images/ och styles/.
+    
+    2. Skapa följande HTML-filer:
+        * index.html (Startsida)
+        * portfolio.html (Portfolio-sida)
+        * contact.html (Kontaktsida)
+
+    3. Skapa en CSS-fil:
+        * Skapa en fil kallad styles.css i styles/-mappen.
+    
+Steg 2: Bygg Startsidan (index.html)
+
+    1. Lägg till HTML-strukturen:
+        * Lägg till en <!DOCTYPE html>-deklaration.
+        * Lägg till en <head>-sektion med en titel och en meta-tag för 
+        charset (UTF-8).
+
+    2. Inkludera en navigeringsmeny:
+        * Skapa en enkel navigeringsmeny som länkar till de tre sidorna 
+        (index.html, portfolio.html, contact.html).
+    
+    3. Lägg till innehåll:
+        * Inkludera en rubrik (h1) som välkomnar besökare till din 
+        webbplats.
+        * Lägg till ett stycke som beskriver vem du är och vad du gör.
+        * Inkludera en bild av dig själv (eller något som representerar 
+        dig) med en alternativ text.
+        * Använd inline CSS för att formatera rubrikens färg och centrera 
+        bilden.
+
+    4. Använd HTML-kommentarer:
+        * Lägg till kommentarer i koden som förklarar strukturen och 
+        syftet med varje sektion.
+
+Steg 3: Skapa Portfolio-sidan (portfolio.html)
+
+    1. Återanvänd navigeringsmenyn:
+        * Kopiera navigeringsmenyn från index.html till portfolio.html.
+
+    2. Inkludera en tabell:
+        * Skapa en tabell som listar några av dina projekt, med kolumner 
+        för projektnamn, beskrivning och länk till projektet.
+
+    3. Använd en punktlista:
+        * Skapa en punktlista under tabellen som sammanfattar dina 
+        färdigheter eller teknologier du använder.
+
+Steg 4: Skapa Kontaktsidan (contact.html)
+
+    1. Återanvänd navigeringsmenyn:
+        * Kopiera navigeringsmenyn från index.html till contact.html.
+
+    2. Inkludera ett kontaktformulär:
+        * Skapa ett enkelt formulär som låter användare skicka ett 
+        meddelande till dig. Formuläret bör inkludera fält för namn, 
+        e-post och meddelande.
+
+    3. Använd block- och inline-element:
+        * Placera formuläret inuti en <div>-container och formatera 
+        några av etiketterna med inline CSS.
+
+Steg 5: Lägg till Färger och Layout (styles.css)
+    1. Skapa en CSS-fil:
+        * Lägg till grundläggande stilar för din webbplats i styles.css.
+        * Inkludera stilregler för färger, bakgrundsfärger och typsnitt.
+        (font-family: Arial, sans-serif;)
+
+Slutresultat:
+När du har slutfört uppgiften, kommer du ha skapat en enkel men 
+funktionell personlig webbplats med flera sidor som använder olika 
+HTML-tekniker och element. Webbplatsen kommer att vara stilren och 
+lättnavigerad, med grundläggande formatering och design.

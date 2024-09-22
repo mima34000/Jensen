@@ -1,0 +1,103 @@
+Övning 1: Grundläggande radbaserad layout
+
+Uppgift: Skapa en horisontell meny med tre knappar.
+
+Instruktioner:
+    1. Använd Flexbox för att placera tre <button>-element 
+    bredvid varandra på en rad.
+    2. Knapparna ska vara centrerade både horisontellt och 
+    vertikalt i sin container.
+
+<div class="container">
+  <button>Knapp 1</button>
+  <button>Knapp 2</button>
+  <button>Knapp 3</button>
+</div>
+
+
+
+Övning 2: Kolumnlayout med utrymme mellan objekt
+
+Uppgift: Skapa en vertikal lista med fyra <div>-element 
+som har lika mycket avstånd mellan sig.
+
+Instruktioner:
+    1. Använd Flexbox för att placera fyra <div>-element 
+    vertikalt med lika stort utrymme mellan varje element.
+
+<div class="container">
+  <div>Box 1</div>
+  <div>Box 2</div>
+  <div>Box 3</div>
+  <div>Box 4</div>
+</div>
+
+
+
+Övning 3: Flex-grow och flex-shrink
+
+Uppgift: Skapa tre flexibla boxar där en box tar upp 
+dubbelt så mycket utrymme som de andra två.
+
+Instruktioner:
+    1. Skapa tre <div>-element som ligger på samma rad.
+    2. Den första och tredje boxen ska ta upp lika mycket
+    utrymme, medan den andra boxen tar upp dubbelt så 
+    mycket utrymme.
+
+<div class="container">
+  <div>Box 1</div>
+  <div>Box 2</div>
+  <div>Box 3</div>
+</div>
+
+
+
+Övning 4: Responsiv Flexbox-grid
+
+Uppgift: Skapa en responsiv 3x2-grid som omvandlas till 
+en 2x3-grid när skärmbredden blir mindre än 600px.
+
+Instruktioner:
+    1. Skapa sex boxar i två rader och tre kolumner.
+    2. Använd Flexbox för att ordna dessa i en grid, 
+    och när fönsterstorleken blir mindre än 600px ska de 
+    omvandlas till tre rader med två kolumner.
+
+<div class="container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+</div>
+
+
+
+Övning 5: Komplett layout för webbsida
+
+Uppgift: Skapa en enkel webbsida med header, main content 
+och footer, där innehållet i main sektionen är uppdelat i 
+två kolumner och header och footer är centrerade 
+horisontellt.
+
+Instruktioner:
+    1. Skapa en layout med en <header>, en <main> och en 
+    <footer>.
+    2. I <main>, använd två flex-kolumner: en sidomeny och 
+    en innehållssektion.
+    3. På smala skärmar (under 600px) ska layouten 
+    justeras så att sidomenyn hamnar ovanför 
+    innehållssektionen.
+
+<header>
+  <h1>Header</h1>
+</header>
+<main>
+  <nav>Sidomeny</nav>
+  <section>Innehåll</section>
+</main>
+<footer>
+  <p>Footer</p>
+</footer>

@@ -1,0 +1,71 @@
+1. Räkna framåt med for-loop
+
+Skriv en funktion som tar ett slutvärde som parameter och använder en 
+for-loop för att räkna fram från 0 värde till slutvärdet, och skriver ut 
+varje tal.
+
+Ex: Om funktionen heter "countUp" ska den anropas
+
+countUp(3);  // då loggas 0 1 2 3
+countUp(10); // då loggas 0 1 2 3 4 5 6 7 8 9 10
+
+
+
+2. Räkna bakåt med for-loop
+
+Skriv en funktion som tar ett startvärde som parameter och använder en 
+for-loop för att räkna baklänges från detta värde till 1, och skriver ut 
+varje tal.
+
+Ex: Om funktionen heter "countDown" ska den anropas
+
+countDown(3);  // då loggas 3 2 1 0
+
+
+
+3. Kontrollera om ett tal är positivt eller negativt
+
+Skriv en funktion som tar ett tal som parameter och använder en 
+if/else-sats för att avgöra om talet är positivt, negativt eller noll. 
+Funktionen ska sedan returnera ett meddelande som beskriver resultatet.
+
+Ex: Om funktionen heter "checkNumber" ska den anropas
+
+const message1 = checkNumber(-3);  // returneras "talet är negativt"
+const message2 = checkNumber(101); // returneras "talet är positivt"
+const message3 = checkNumber(0);   // returneras "talet är 0"
+
+Tips: Använd if/else if/else i funktionen
+
+
+
+4. Omvandla Celsius till Fahrenheit
+
+Skriv en funktion som tar en temperatur i Celsius som parameter och 
+omvandlar den till Fahrenheit. Använd en if/else if/else-sats för att 
+avgöra om det är kallt (< 10), lagom (10-25), eller varmt (> 25).
+
+Ex: Om funktionen heter "celciusToFarenheit" ska den anropas
+
+const farenheit1 = celciusToFarenheit(30); // returneras 86
+
+Tips: fahrenheit = (celsius * 9/5) + 32;
+
+
+
+5. Summera tal mellan två värden
+
+Skriv en funktion som tar två tal som parametrar och använder en for-loop 
+för att räkna ut summan av alla heltal mellan dessa två värden (inklusive 
+dem). Funktionen ska sedan returnera summan
+
+Ex: Om funktionen heter "sumBetween" ska den anropas
+
+const sum1 = sumBetween(1, 4);  // returneras 10
+const sum2 = sumBetween(-1, 1); // returneras 0
+const sum3 = sumBetween(7, 8);  // returneras 15
+
+Tips: Använd en aggregator variabel i for-loopen för att samla ihop summan
+
+
+

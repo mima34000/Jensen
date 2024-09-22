@@ -1,0 +1,79 @@
+Övning 1: Skapa ett HTML Formulär
+
+Skapa en enkel HTML-sida som innehåller ett formulär med 
+följande fält:
+
+    * Textfält för namn.
+    * E-postfält för e-postadress.
+    * Radioknappar för kön (man, kvinna, annat).
+    * Kryssrutor för intressen (t.ex. sport, musik, 
+    teknik).
+    * En textarea för att skriva en kort beskrivning av 
+    sig själv.
+    * En knapp för att skicka formuläret.
+
+    Extra: Lägg till en select-meny där användaren kan 
+    välja sin favoritfärg.
+
+
+
+Övning 2: Inbäddning av Media i HTML
+
+Skapa en HTML-sida som visar upp olika medietyper:
+
+    Bild: Inkludera en bild från din dator.
+    Video: Lägg till en video (kan vara en lokal fil eller
+    en länk) som spelas upp på sidan.
+    Ljud: Lägg till en ljudfil som användaren kan spela 
+    upp.
+
+    Extra: Använd figure och figcaption-taggarna för att 
+    ge en kort beskrivning till varje mediatyp.
+
+
+
+Övning 3: Arbeta med HTML Video
+
+Skapa en HTML-sida med en video som har följande 
+funktioner:
+
+    * Videon ska ha kontroller (play, pause, volym).
+    * Videon ska vara autoplay och loopa.
+    * Lägg till en poster-bild som visas innan videon 
+    startar.
+
+
+
+
+
+
+
+
+Övning 4: Arbeta med HTML Audio
+
+Skapa en HTML-sida med en ljudspelare:
+
+    * Ladda upp en ljudfil som kan spelas upp.
+    * Ge användaren möjlighet att styra volymen och se 
+    ljudets längd.
+    * Använd controls-attributet för att visa 
+    standardkontrollerna.
+
+    Extra: Lägg till en textbeskrivning av ljudklippet 
+    och en länk för att ladda ner filen.
+
+
+
+Övning 5: Bädda in en YouTube-video i HTML
+
+Skapa en HTML-sida där du bäddar in en YouTube-video:
+
+    http://youtube.com/embed/<id>
+
+    * Gå till en YouTube-video och få dess inbäddningskod.
+    * Klistra in koden i din HTML-fil.
+    * Anpassa inbäddningskoden för att ändra videons 
+    storlek (höjd och bredd).
+    * Lägg till en parameter i url för att videon ska börja 
+    spela automatiskt (autoplay).
+    * centrera videon på sidan.

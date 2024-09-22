@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .dropdown {
+        position: relative;
+      }
+      .dropdown-button {
+        background-color: #04aa6d;
+        padding: 15px;
+        color: white;
+        border: none;
+        width: 100px;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 80px;
+      }
+      .dropdown-content a {
+        display: block;
+        padding: 15px;
+        width: 70px;
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dropdown">
+      <!-- relative -->
+      <button class="dropdown-button">Dropdown</button>
+      <div class="dropdown-content">
+        <!-- absolute -->
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+  </body>
+</html>
